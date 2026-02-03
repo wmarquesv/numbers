@@ -1,0 +1,45 @@
+.flex{
+    display: flex;
+}
+
+.py-base{
+    padding-block: 2.5rem;
+}
+
+.container{
+    margin: 2.75rem 2rem;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.desktop-only{
+    display: none;
+}
+
+.none{
+    display: none;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+@media screen and (width >= 1024px)  {
+    .container{
+        margin: 4rem 8rem;
+    }
+
+    .desktop-only{
+        display: initial;
+    }
+
+    .py-base{
+        padding-block: 2rem;
+    }
+}

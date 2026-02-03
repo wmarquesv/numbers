@@ -1,0 +1,55 @@
+.numbers{
+    height: 3.5rem;
+    width: 5rem;
+    border: 0;
+    text-align: center;
+    border-radius: 8px;
+    font: var(--display-small);
+    color: var(--content-primary);
+    background:var(--background-secondary);
+}
+
+.btn{
+    border: 0;
+    border-radius: 8px;
+    width: 100%;
+    padding-block: 1rem;
+    font: var(--label-m);
+    color: var(--content-primary);
+    background-color: var(--background-tertiary);
+    gap: 8px;
+}
+
+.toggle-switch{
+    width: 30px;
+    height: 20px;
+    border: 0;
+    border-radius: 16px;
+    background: var(--content-tertiary);
+    cursor: pointer;  
+}
+
+.switch-off{
+        left: 1;
+        background-color: white;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        margin-inline: 3px;
+    }
+
+.switch-on{
+    background-color: white;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-inline: 3px;
+    margin-left: auto;
+}
+
+@media screen and (width >= 1025px){
+    .btn{
+    width: 30rem;
+    
+}
+}
