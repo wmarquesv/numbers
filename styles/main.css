@@ -13,7 +13,7 @@
 
 .principal{
     .introduction{
-        padding-bottom: 2.5rem;
+        padding-block: 2.5rem;
         
         h3{
         font: var(--label-m);
@@ -25,8 +25,12 @@
             color: var(--content-tertiary);
         }
     }
-
+    
     #input-numbers{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        text-align: center;
         padding-bottom: 1rem;
         h3{
             font: var(--label-m);
@@ -39,6 +43,11 @@
         font: var(--p-m);
         color: var(--content-primary);
     }
+
+    #btn{
+        padding-top: 2.5rem;
+        padding-bottom: 4rem;
+    }
 }
 
 footer{
@@ -49,7 +58,7 @@ footer{
     p{
         font: var(--p-m);
         color: var(--content-secondary);
-        padding-bottom: 2rem;
+        padding-bottom: 2.5rem;
     }
 }
 
@@ -73,6 +82,7 @@ footer{
     color: var(--content-primary);
     background-color: var(--background-tertiary);
     gap: 8px;
+    cursor: pointer;
 }
 
 .toggle-switch{
@@ -107,4 +117,9 @@ footer{
     width: 30rem;
     
 }
+
+    .principal{
+        display: grid;
+        grid-template-columns: 50%, 50%;
+    }
 }
