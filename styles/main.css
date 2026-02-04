@@ -1,6 +1,61 @@
+.hero{
+    h3{
+        color: var(--content-secondary);
+        font: var(--overline);
+    }
+    
+    h2{
+        font: var(--display-medium);
+        color: var(--content-primary);
+        margin-top: 1rem;
+    }
+}
+
+.principal{
+    .introduction{
+        padding-bottom: 2.5rem;
+        
+        h3{
+        font: var(--label-m);
+        text-transform: uppercase;
+        color: var(--content-primary);
+        }
+        p{
+            font: var(--p-m);
+            color: var(--content-tertiary);
+        }
+    }
+
+    #input-numbers{
+        padding-bottom: 1rem;
+        h3{
+            font: var(--label-m);
+            color: var(--content-secondary);
+            text-transform: uppercase;
+        }
+    }
+
+    #toggle{
+        font: var(--p-m);
+        color: var(--content-primary);
+    }
+}
+
+footer{
+    h3{
+        font: var(--p-l);
+        color: var(--content-brand);
+    }
+    p{
+        font: var(--p-m);
+        color: var(--content-secondary);
+        padding-bottom: 2rem;
+    }
+}
+
 .numbers{
     height: 3.5rem;
-    width: 5rem;
+    width: 6rem;
     border: 0;
     text-align: center;
     border-radius: 8px;

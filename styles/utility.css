@@ -30,6 +30,14 @@
     justify-content: space-between;
 }
 
+.gap-1{
+    gap: 1rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
 @media screen and (width >= 1024px)  {
     .container{
         margin: 4rem 8rem;

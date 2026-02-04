@@ -1,0 +1,10 @@
+header img{
+    width: 38px;
+    height: 38px;
+}
+
+h1{
+    font-family: var(--ff-sora);
+    font-size: 900 1.5rem/1.5;
+    color: var(--content-primary);
+}

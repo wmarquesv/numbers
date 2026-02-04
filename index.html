@@ -13,6 +13,102 @@
     <title>Numbers</title>
 </head>
 <body class="container">  
+    <header class="flex justify-center gap-1 align-center">
+        <img src="assets/logo.svg" alt="logo numbers">
+        <h1>NUMBERS</h1>
+    </header>
+
+    <main>
+        <section class="hero py-base">
+            <h3>
+                ONLINE - GRATUITO
+            </h3>
+            <h2>
+                SORTEADOR DE NUMEROS
+            </h2>
+        </section>
+
+        <section class="principal">
+            <div class="introduction">
+                <h3 >quero sortear</h3>
+                <p>Defina o intervalo e a quantidade de números, 
+                clique em "Sortear" e veja os resultados na tela. 
+                É rápido e fácil!
+            </p>
+            </div>
+
+            <div id="input-numbers" class="flex gap-1 justify-center text-center">
+                <div class="how-many">
+                    <h3>números</h3>
+                    <input
+                    class="numbers justify-center align-center"
+                    type="text"
+                    name="number"
+                    id="number"
+                    value=""
+                    >
+                </div>
+                <div class="from">
+                    <h3>de</h3>
+                    <input
+                    class="numbers justify-center align-center"
+                    type="text"
+                    name="number"
+                    id="number"
+                    value=""
+                >
+                </div>
+                <div class="to">
+                    <h3>à</h3>
+                    <input
+                    class="numbers justify-center align-center"
+                    type="text"
+                    name="number"
+                    id="number"
+                    value=""
+                    >
+                </div>
+            </div>
+            
+            <div id="toggle" class="gap-1 flex">
+                <button class="toggle-switch"><div class="switch-off"></div><div class="switch-on none"></div></button>
+                <p>Não repetir o número</p>
+            </div>
+
+            <div class="py-base">
+                <button class="btn flex justify-center align-center">
+                SORTEAR <img src="assets/icons/arrow.png" alt="">
+            </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="how-it-works">
+           <h3 class="">
+                <img src="assets/icons/mesage-person.svg" alt="">
+                Como funciona o sorteador de números?
+            </h3>
+            <p>
+                O sorteador utiliza um algoritmo de geração aleatória para criar 
+                números dentro do intervalo especificado pelo usuário.
+            </p>
+        </div>
+
+        <div id="what-to-do" class="">
+            <h3>
+                <img src="assets/icons/mesage-person.svg" alt="">
+                Posso escolher o intervalo dos números?
+            </h3>
+
+            <p>
+                Sim, você pode definir os valores mínimo e máximo para
+                o intervalo dos números sorteados.
+            </p>
+            
+        </div>
+    </footer>
+
 
     <script src="scripts.js"></script>
 </body>
