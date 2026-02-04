@@ -50,4 +50,8 @@
     .py-base{
         padding-block: 2rem;
     }
+
+    .mobile-only{
+        display: none;
+    }
 }

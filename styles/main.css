@@ -14,7 +14,6 @@
 .principal{
     .introduction{
         padding-block: 2.5rem;
-        
         h3{
         font: var(--label-m);
         text-transform: uppercase;
@@ -27,9 +26,9 @@
     }
     
     #input-numbers{
-        display: flex;
+        display: grid;
+        grid-template-columns: max-content max-content max-content;
         justify-content: center;
-        gap: 1rem;
         text-align: center;
         padding-bottom: 1rem;
         h3{
@@ -113,13 +112,42 @@ footer{
 }
 
 @media screen and (width >= 1025px){
-    .btn{
-    width: 30rem;
-    
-}
-
-    .principal{
+    .sidebar{
         display: grid;
-        grid-template-columns: 50%, 50%;
+        grid-template-columns: 1fr 50%;
+        
+    }
+
+    .hero{   
+        h2{
+            font: var(--display-large);
+            padding-bottom: 2rem;
+        }
+        
+    }
+    
+    .principal{
+        .introduction{
+            p{
+                font: var(--p-l);
+            }
+        }
+    }
+
+    .btn{
+        width: 30rem;
+        justify-self: center;
+    }
+
+    #informations{
+        h3{
+        font: var(--p-l);
+        color: var(--content-brand);
+    }
+    p{
+        font: var(--p-m);
+        color: var(--content-secondary);
+        padding-bottom: 2.5rem;
+    }
     }
 }

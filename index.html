@@ -18,7 +18,7 @@
         <h1>NUMBERS</h1>
     </header>
 
-    <main>
+    <main class="sidebar">
         <section class="hero">
             <h3>
                 ONLINE - GRATUITO
@@ -26,11 +26,37 @@
             <h2>
                 SORTEADOR DE NUMEROS
             </h2>
+
+            <div id="informations" class="desktop-only">
+                <div id="how-it-works">
+                    <h3 class="">
+                    <img src="assets/icons/mesage-person.svg" alt="">
+                    Como funciona o sorteador de números?
+                    </h3>
+                    <p>
+                    O sorteador utiliza um algoritmo de geração aleatória para criar 
+                    números dentro do intervalo especificado pelo usuário.
+                    </p>
+                </div>
+
+                <div id="what-to-do" class="">
+                    <h3>
+                        <img src="assets/icons/mesage-person.svg" alt="">
+                        Posso escolher o intervalo dos números?
+                    </h3>
+
+                    <p>
+                        Sim, você pode definir os valores mínimo e máximo para
+                        o intervalo dos números sorteados.
+                    </p>
+            
+                </div>
+            </div >
         </section>
 
-        <aside class="principal">
+        <aside class="principal align-center">
             <div class="introduction">
-                <h3 >quero sortear</h3>
+                <h3>quero sortear</h3>
                 <p>Defina o intervalo e a quantidade de números, 
                 clique em "Sortear" e veja os resultados na tela. 
                 É rápido e fácil!
@@ -70,7 +96,7 @@
                 </div>
             </div>
             
-            <div id="toggle" class="gap-1 flex">
+            <div id="toggle" class="">
                 <button class="toggle-switch"><div class="switch-off"></div><div class="switch-on none"></div></button>
                 <p>Não repetir o número</p>
             </div>
@@ -83,16 +109,16 @@
         </aside>
     </main>
 
-    <footer>
+    <footer id="informations" class="mobile-only">
         <div id="how-it-works">
-           <h3 class="">
+            <h3 class="">
                 <img src="assets/icons/mesage-person.svg" alt="">
                 Como funciona o sorteador de números?
-            </h3>
-            <p>
-                O sorteador utiliza um algoritmo de geração aleatória para criar 
-                números dentro do intervalo especificado pelo usuário.
-            </p>
+                </h3>
+                <p>
+                    O sorteador utiliza um algoritmo de geração aleatória para criar 
+                    números dentro do intervalo especificado pelo usuário.
+                </p>
         </div>
 
         <div id="what-to-do" class="">
@@ -107,8 +133,7 @@
             </p>
             
         </div>
-    </footer>
-
+    </footer >
 
     <script src="scripts.js"></script>
 </body>
