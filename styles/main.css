@@ -111,7 +111,7 @@ footer{
     margin-left: auto;
 }
 
-@media screen and (width >= 1025px){
+@media screen and (width >= 1024px){
     .sidebar{
         display: grid;
         grid-template-columns: 1fr 50%;
@@ -139,7 +139,7 @@ footer{
         justify-self: center;
     }
 
-    #informations{
+    .informations{
         h3{
         font: var(--p-l);
         color: var(--content-brand);
