@@ -49,7 +49,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 84vh;
+    height: 100vh;
 }
 
 input{
@@ -59,4 +59,10 @@ input{
 
 a{
     text-decoration: none;
+}
+
+@media screen and (width >= 1024px) {
+    body{
+        height: 84vh;
+    }
 }

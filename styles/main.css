@@ -41,12 +41,10 @@
     #toggle{
         font: var(--p-m);
         color: var(--content-primary);
+        display: flex;
+        gap: 1rem;
     }
 
-    #btn{
-        padding-top: 2.5rem;
-        padding-bottom: 4rem;
-    }
 }
 
 footer{
@@ -77,6 +75,7 @@ footer{
     border-radius: 8px;
     width: 100%;
     padding-block: 1rem;
+    margin-block: 2.5rem;
     font: var(--label-m);
     color: var(--content-primary);
     background-color: var(--background-tertiary);
